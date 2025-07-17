@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+background: linear-gradient(115deg, #0f2027, #2c5364, #00bf8f);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form-box {
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  color: #fff;
+  text-align: center;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.85rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #00c6ff;
+  border: none;
+  border-radius: 0.45rem;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form button:hover {
+  background: #0089ff;
+  color: white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin: 0.35rem 1rem;
+}
+
+.options input{
+  margin: 0.1rem 0
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  white-space: nowrap;
+}
+
+.options a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.options a:hover{
+    color: #00aeffd8;
+    text-decoration: underline;
+}
+
+.btn-login{
+  margin-top: 1rem;
+}
+
+.create {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.create a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.create a:hover{
+    color: #00aeffd8;
+    text-decoration: underline;
+}
+
+#forgot input{
+  margin-top: 2rem;
+  padding: 0.85rem;
+}
+
+#forgot button{
+  margin: 1rem 0;
+}
+
+#createAcc{
+  max-width: 450px;
+}
+
+#createAcc input{
+  margin-bottom: 1.65rem;
+}
+
+#createAcc input:first-child{
+  margin-top: 0.5rem;
+}
+
+/*  Responsive Design */
+@media (max-width: 600px) {
+  .form-box {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  form input {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  form button {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  .options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .options a {
+    align-self: flex-end;
+    font-size: 0.85rem;
+  }
+
+  .create {
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  #createAcc {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  #forgot input {
+    font-size: 0.95rem;
+  }
+
+  #forgot button {
+    font-size: 1rem;
+  }
+}
