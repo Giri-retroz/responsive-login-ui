@@ -9,13 +9,31 @@ Includes a modern dark theme with glassmorphism style.
 - Dark gradient background
 - “Remember me” and “Forgot password?” functionality (UI only)
 
-## 💻 Preview
+## 💻 Preview Screens
 
-![screenshot](screenshot.png) <!-- Optional if you add one -->
+### 🔐 Login Page
+![Login Screenshot](screenshot-login.png)
+
+### 📝 Signup Page
+![Signup Screenshot](screenshot-signup.png)
+
+### ❓ Forgot Password Page
+![Forgot Password Screenshot](screenshot-forgot.png)
 
 ## 🔧 Tech Used
 - HTML5
 - CSS3 (Flexbox, media queries)
 
 ## 📂 Folder Structure
+```
+responsive-login-ui/
+├── index.html
+├── signup.html
+├── forget_password.html
+├── style.css
+├── screenshot-login.png
+├── screenshot-signup.png
+├── screenshot-forgot.png
+└── README.md
+```
 
